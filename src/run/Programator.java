@@ -1,6 +1,6 @@
 package run;
 
-public class Programator implements Angajat, Runner{
+public class Programator extends AngajatCompanieTelecomunicatie implements Angajat, Runner{
     @Override
     public void lucreaza() {
         System.out.println("Programming");
@@ -9,5 +9,10 @@ public class Programator implements Angajat, Runner{
     @Override
     public void runner() {
 
+    }
+
+    @Override
+    String desrieFunctiaSa() {
+        return "Programator";
     }
 }

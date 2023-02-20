@@ -5,4 +5,9 @@ public class BuilderCompanyWorker extends AngajatCompanieTelecomunicatie impleme
     public void lucreaza() {
 
     }
+
+    @Override
+    String desrieFunctiaSa() {
+        return "Builder";
+    }
 }

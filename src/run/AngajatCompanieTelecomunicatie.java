@@ -1,9 +1,10 @@
 package run;
 
-public class AngajatCompanieTelecomunicatie {
+public abstract class AngajatCompanieTelecomunicatie {
     String nume;
     int age;
     String description;
+    abstract String desrieFunctiaSa();
 
     public String getNume() {
         return nume;
